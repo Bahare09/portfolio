@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 // import Projects from "./components/Projects";
-// import ContactForm from "./components/ContactForm";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <main>
         <AboutMe />
-        {/*<Projects />
-        <ContactForm />*/}
+        {/*<Projects />*/}
+        <ContactForm />
       </main>
       <footer>
         <p>&copy; {new Date().getFullYear()} Bahare Bahreinian</p>
