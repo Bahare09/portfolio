@@ -1,21 +1,21 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import ContactForm from "./components/ContactForm";
+// import AboutMe from "./components/AboutMe";
+// import Projects from "./components/Projects";
+// import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main>
+      {/* <main>
         <AboutMe />
         <Projects />
         <ContactForm />
-      </main>
+      </main> */}
       <footer>
-        <p>&copy; {new Date().getFullYear()} Your Name</p>
+        <p>&copy; {new Date().getFullYear()} Bahare Bahreinian</p>
       </footer>
     </div>
   );
