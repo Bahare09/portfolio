@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         <AboutMe />
-        {/*<Projects />*/}
+        <Projects />
         <ContactForm />
       </main>
       <footer>
