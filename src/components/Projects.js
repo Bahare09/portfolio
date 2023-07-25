@@ -9,7 +9,7 @@ const Projects = () => {
         <p>Description of Project 1</p>
       </div>
       <div className="project">
-        <h3>Project 2</h3>
+        <h2>Project 2</h2>
         <p>Description of Project 2</p>
       </div>
     </section>
