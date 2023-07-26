@@ -1,4 +1,5 @@
 import React from "react";
+import "./Style.css";
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
         <p>Description of Project 1</p>
       </div>
       <div className="project">
-        <h2>Project 2</h2>
+        <h3>Project 2</h3>
         <p>Description of Project 2</p>
       </div>
     </section>
