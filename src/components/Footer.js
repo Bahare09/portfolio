@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Bahare. All rights reserved.</p>
         <div className="social-links">
           <a href="#" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter"></i>
