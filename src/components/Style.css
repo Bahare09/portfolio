@@ -114,3 +114,21 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+/* Style for the social media links */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
