@@ -10,7 +10,14 @@ const projectsData = [
     title: "Project 2",
     description: "Description of Project 2",
   },
-  // Add more projects as needed
+  {
+    title: "Project 3",
+    description: "Description of Project 2",
+  },
+  {
+    title: "Project 4",
+    description: "Description of Project 2",
+  },
 ];
 
 const Projects = () => {
