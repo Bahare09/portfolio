@@ -1,17 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Style.css";
 
+const projectsData = [
+  {
+    title: "Project 1",
+    description: "Description of Project 1",
+  },
+  {
+    title: "Project 2",
+    description: "Description of Project 2",
+  },
+  // Add more projects as needed
+];
+
 const Projects = () => {
+  const [currentProject, setCurrentProject] = useState(0);
+
+  const handleNext = () => {
+    setCurrentProject((prevProject) => (prevProject + 1) % projectsData.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentProject((prevProject) =>
+      prevProject === 0 ? projectsData.length - 1 : prevProject - 1
+    );
+  };
+
   return (
     <section id="projects">
       <h2>Projects</h2>
       <div className="project">
-        <h3>Project 1</h3>
-        <p>Description of Project 1</p>
+        <h3>{projectsData[currentProject].title}</h3>
+        <p>{projectsData[currentProject].description}</p>
       </div>
-      <div className="project">
-        <h3>Project 2</h3>
-        <p>Description of Project 2</p>
+      <div className="buttons">
+        <button onClick={handlePrevious}>Previous</button>
+        <button onClick={handleNext}>Next</button>
       </div>
     </section>
   );
