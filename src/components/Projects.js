@@ -41,7 +41,15 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <div className="project">
-        <h3>{projectsData[currentProject].title}</h3>
+        <h3>
+          <a
+            href={projectsData[currentProject].link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {projectsData[currentProject].title}
+          </a>
+        </h3>
         <p>{projectsData[currentProject].description}</p>
       </div>
       <div className="buttons">
