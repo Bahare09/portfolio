@@ -132,3 +132,47 @@ button[type="submit"]:hover {
 .social-links a:hover {
   color: #007bff;
 }
+/* Style.css */
+
+/* Projects section */
+#projects {
+  margin: 20px;
+}
+
+/* Project item */
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Project title */
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Project description */
+.project p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Navigation buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
