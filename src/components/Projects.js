@@ -5,18 +5,22 @@ const projectsData = [
   {
     title: "Project 1",
     description: "Description of Project 1",
+    link: "https://cyf-bahare09-hotel-react.netlify.app/",
   },
   {
     title: "Project 2",
     description: "Description of Project 2",
+    link: "https://cyf-bahare09-hotel-react.netlify.app/",
   },
   {
     title: "Project 3",
-    description: "Description of Project 2",
+    description: "Description of Project 3",
+    link: "https://cyf-bahare09-hotel-react.netlify.app/",
   },
   {
     title: "Project 4",
-    description: "Description of Project 2",
+    description: "Description of Project 4",
+    link: "https://cyf-bahare09-hotel-react.netlify.app/",
   },
 ];
 
