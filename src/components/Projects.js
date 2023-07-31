@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Style.css";
 
 const projectsData = [
@@ -12,20 +12,10 @@ const projectsData = [
     description: "Description of Project 2",
     link: "https://cyf-bahare09-hotel-react.netlify.app/",
   },
-  {
-    title: "Project 3",
-    description: "Description of Project 3",
-    link: "https://cyf-bahare09-hotel-react.netlify.app/",
-  },
-  {
-    title: "Project 4",
-    description: "Description of Project 4",
-    link: "https://cyf-bahare09-hotel-react.netlify.app/",
-  },
 ];
 
 const Projects = () => {
-  const [currentProject, setCurrentProject] = useState(0);
+  const [currentProject, setCurrentProject] = React.useState(0);
 
   const handleNext = () => {
     setCurrentProject((prevProject) => (prevProject + 1) % projectsData.length);
