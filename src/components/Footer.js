@@ -10,6 +10,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/bahare-bahreinian-002843246/"
             target="_blank" // Add target="_blank" to open link in a new tab
+            rel="noopener noreferrer" // Add rel="noopener noreferrer" for security
           >
             <i className="fab fa-linkedin"></i> {/* Use the LinkedIn icon */}
           </a>
