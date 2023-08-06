@@ -10,7 +10,7 @@ const projectsData = [
   {
     title: "Project 2",
     description: "Description of Project 2",
-    link: "https://cyf-bahare09-hotel-react.netlify.app/",
+    link: "starter-kit-1fqo.onrender.com/",
   },
 ];
 
