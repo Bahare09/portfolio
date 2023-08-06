@@ -12,6 +12,11 @@ const projectsData = [
     description: "Description of Project 2",
     link: "starter-kit-1fqo.onrender.com/",
   },
+  {
+    title: "Project 3",
+    description: "Description of Project 3",
+    link: "video-recommandation-4.onrender.com/",
+  },
 ];
 
 const Projects = () => {
