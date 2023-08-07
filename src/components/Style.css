@@ -1,5 +1,3 @@
-/* aboutMe.css (or any other name you prefer) */
-
 /* Reset some default styles to ensure consistent rendering across browsers */
 * {
   margin: 0;
@@ -9,7 +7,7 @@
 
 /* Style for the section containing the About Me content */
 #about {
-  background-color: #f9f9f9;
+  background-color: #f9f0f0;
   padding: 20px;
 }
 
@@ -43,7 +41,7 @@
 #projects h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: #322e2e;
   margin-bottom: 20px;
 }
 
@@ -72,7 +70,7 @@
 
 /* Style for the h2 heading */
 #contact h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
