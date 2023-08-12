@@ -14,13 +14,7 @@ const Footer = () => {
           >
             <i className="fab fa-linkedin"></i> {/* Use the LinkedIn icon */}
           </a>
-          <a
-            href="https://twitter.com/your_twitter_profile"
-            target="_blank" // Add target="_blank" to open link in a new tab
-            rel="noopener noreferrer" // Add rel="noopener noreferrer" for security
-          >
-            <i className="fab fa-twitter"></i> {/* Use the Twitter icon */}
-          </a>
+
           <a
             href="https://github.com/your_github_username"
             target="_blank" // Add target="_blank" to open link in a new tab
