@@ -46,7 +46,11 @@ const Header = () => {
               key={link.name}
               className="md-ml-8 md:my-8 mt-5 font-semibold text-xl border-b-2 md:border-b-0 text-right px-7 md:px-4 pb-4 md:pb-0 cursor-pointer"
             >
-             
+              <Link
+                to={link.link}
+                className="text-light hover:text-secondary duration-500 uppercase"
+              >
+              
 };
 
 export default Header;
