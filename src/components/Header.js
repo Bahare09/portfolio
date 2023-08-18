@@ -50,7 +50,14 @@ const Header = () => {
                 to={link.link}
                 className="text-light hover:text-secondary duration-500 uppercase"
               >
-              
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
