@@ -162,15 +162,3 @@ button[type="submit"]:hover {
   justify-content: space-between;
   margin-top: 10px;
 }
-
-.buttons button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-.buttons button:hover {
-  background-color: #00b3ad;
-}
