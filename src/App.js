@@ -11,11 +11,10 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <AboutMe />
-        <Projects />
-        <ContactForm />
-        <Footer />
-      </main>
+        <AboutMe/>
+        <Projects/>
+        <ContactForm/>
+            </main>
       <footer>
         <p>&copy; {new Date().getFullYear()} Bahare Bahreinian</p>
       </footer>
