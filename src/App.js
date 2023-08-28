@@ -13,6 +13,8 @@ function App() {
       <main>
         <AboutMe/>
         <Projects/>
+            <p> {new Date().getFullYear()} </p>
+
         <ContactForm/>
             </main>
       <footer>
