@@ -3,7 +3,7 @@ import "./Style.css";
 const AboutMe = () => {
   return (
     <section id="about">
-      <h1>About Me</h1>
+      <h1>About Me:</h1>
       <p>
         I am a collaborative and self-motivated software developer with a
         passion for learning new concepts and sharing ideas with others. I
