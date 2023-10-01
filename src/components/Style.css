@@ -160,5 +160,5 @@ button[type="submit"]:hover {
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 11px;
 }
