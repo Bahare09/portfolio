@@ -52,6 +52,13 @@ const Header = () => {
               >
                 {link.name}
               </Link>
+                   <a
+            href="https://github.com/your_github_username"
+            target="_blank" // Add target="_blank" to open link in a new tab
+            rel="noopener noreferrer" // Add rel="noopener noreferrer" for security
+          >
+            <i className="fab fa-github"></i> {/* Use the GitHub icon */}
+          </a>
             </li>
           ))}
         </ul>
