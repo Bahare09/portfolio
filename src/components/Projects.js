@@ -19,6 +19,7 @@ const projectsData = [
   },
 ];
 
+
 const Projects = () => {
   const [currentProject, setCurrentProject] = React.useState(0);
 
@@ -54,5 +55,9 @@ const Projects = () => {
     </section>
   );
 };
+ <section id="contact">
+      <h2>Contact Me</h2>
+      <form></form>
+    </section>
 
 export default Projects;
